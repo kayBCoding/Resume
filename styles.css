@@ -1,5 +1,11 @@
 table, th, td {
     border: 1px solid; 
-    color: blue;
+    color: black;
     text-align: center; 
+    .transition {
+        transition: all 500ms;
+      }
+      .card-hover:hover {
+        transform: scale(1.05);
+      }
 }

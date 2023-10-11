@@ -1,0 +1,84 @@
+/* nord.css */
+
+:root {
+  --nord0: #2e3440;
+  --nord1: #3b4252;
+  --nord2: #434c5e;
+  --nord3: #4c566a;
+  --nord4: #d8dee9;
+  --nord5: #e5e9f0;
+  --nord6: #eceff4;
+  --nord7: #8fbcbb;
+  --nord8: #88c0d0;
+  --nord9: #81a1c1;
+  --nord10: #5e81ac;
+  --nord11: #bf616a;
+  --nord12: #d08770;
+  --nord13: #ebcb8b;
+  --nord14: #a3be8c;
+  --nord15: #b48ead;
+
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+}
+
+.bg-nord-light {
+  background-color: var(--nord6);
+}
+
+.bg-green {
+  background-color: var(--nord7);
+}
+
+.bg-yellow {
+  background-color: var(--nord13);
+}
+
+.bg-teal {
+  background-color: var(--nord8);
+}
+
+.bg-red {
+  background-color: var(--nord12);
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 20px var(--nord4);
+}
+
+.headshot {
+  max-width: 150px;
+  max-height: 150px;
+  display: block;
+  margin: auto;
+}
+
+.transition {
+  transition: all 500ms;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+img:hover {
+  transform: scale(1.02);
+}

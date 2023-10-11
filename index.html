@@ -1,23 +1,511 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en" dir="ltr" class="fa-events-icons-ready">
     <head>
         <meta charset="utf-8">
-
+        <meta name="viewpoint" content="width=device-width, inital-scale=1, shrink-to-fit=no">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link href="./static/nord.css" rel="stylesheet">
         <title>Karissa Nyawera's Resume</title>
 
         <!-- Load external CSS styles -->
-        <link rel="stylesheet" href="styles.css">
-
+        <style>
+            .bg-nord-light {
+              background-color: var(--nord6);
+            }
+        
+            .bg-green {
+              background-color: var(--nord7);
+            }
+        
+            .bg-yellow {
+              background-color: var(--nord13);
+            }
+        
+            .bg-teal {
+              background-color: var(--nord8);
+            }
+        
+            .bg-red {
+              background-color: var(--nord12);
+            }
+        
+            .box-shadow {
+              box-shadow: 0px 0px 20px var(--nord4);
+            }
+        
+            .headshot {
+              max-width: 150px;
+              max-height: 150px;
+              display: block;
+              margin: auto;
+            }
+        
+            .transition {
+              transition: all 500ms;
+            }
+        
+            .card:hover {
+              transform: scale(1.02);
+            }
+        
+            img:hover {
+              transform: scale(1.02);
+            }
+          </style>
     </head>
 
     <body>
-
-        <h1>All About Me</h1>
+        <body class="bg-nord-light">
+            <div class="container">
+              <div id="content">
+                <div class="row" id="name-contact-row">
+                  <div class="col-12 text-center" id="name-contact-col">
+                    <br>
+                    <img class="headshot box-shadow rounded-circle transition" src="file:///C:/Users/karis/Desktop/Headshot.jpg">
+                    <br>
+                    <h1>Karissa D. Nyawera</h1>
+                    <div class="btn-group" role="group">
+                      
+                      <a href="https://ericmjl.github.io" class="btn btn-bg btn-text">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        Website
+                      </a>
+                      
+                      <a href="https://github.com/kayBCoding" class="btn btn-bg btn-text">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                        Github
+                      </a>
+                      
+                      <a href="https://www.linkedin.com/in/karissa-nyawera/" class="btn btn-bg btn-text">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        LinkedIn
+                      </a>
+                      
+                      <a href="https://maps.app.goo.gl/mSKqD956K6GZTJVN9" class="btn btn-bg btn-text">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        The Colony, TX
+                      </a>
+                      
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <hr>
+                <div class="row" id="quicklinks">
+                  <div class="col-12">
+                  <p class="text-center">
+                  Jump to:
+                    <a href="#skills" class="btn btn-bg btn-text">Skills</a>
+                    |
+                    <a href="#experience" class="btn btn-bg btn-text">Experience</a>
+                    |
+                    <a href="#education" class="btn btn-bg btn-text">Education</a>
+                    |
+                    <a href="#publications" class="btn btn-bg btn-text">Publications</a>
+                  </p>
+                  </div>
+                </div>
+                <br>
+                <div class="row" id="skills-title-row">
+                  <div class="col-12" id="skills-title-col">
+                    <a name="skills">
+                      <h3 class="text-center">
+                        <!-- <i class="fa fa-wrench" aria-hidden="true"></i> -->
+                        Skills
+                      </h3>
+                    </a>
+                  </div>
+                </div>
+                <br>
+                
+                <div class="row" id="skills-content-row">
+                  <div class="col-12"> 
+                    <div class="card box-shadow transition" id="Languages and Tools-card">
+                      <div class="row g-0">
+                       <div class="col-md-3 bg-teal"> 
+                        <div class="card-body">
+                          <h5 class="card-title text-right">Languages and Tools</h5>
+                            <small>Programming languages and tools that I use in my day-to-day.</small>
+                          </div>
+                        </div>
+                        <div class="col-md-9">
+                          <div class="card-body">
+                            <p class="card-text"></p>
+                            <p>
+                              PUT INFO HERE
+                            </p>
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="card box-shadow transition" id="Packages-card">
+                      <div class="row g-0">
+                        <div class="col-md-3 bg-teal">
+                          <div class="card-body">
+                            <h5 class="card-title text-right">Packages</h5>
+                            <small>Specific Python packages that I have proficiency with.</small>
+                          </div>
+                        </div>
+                        <div class="col-md-9">
+                          <div class="card-body">
+                            <p class="card-text"></p>
+                            <p>PUT INFO HERE</p>
+          <p></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    
+                    <div class="card box-shadow transition" id="ML/Stats-card">
+                      <div class="row g-0">
+                        <div class="col-md-3 bg-teal">
+                          <div class="card-body">
+                            <h5 class="card-title text-right">ML/Stats</h5>
+                            <small>Concepts and ideas that I am comfortable addressing questions on.</small>
+                          </div>
+                        </div>
+                        <div class="col-md-9">
+                          <div class="card-body">
+                            <p class="card-text"></p><p>PUT INFO HERE</p><p></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    
+                    <div class="card box-shadow transition" id="Life Sciences &amp; Chemistry-card">
+                      <div class="row g-0">
+                        <div class="col-md-3 bg-teal">
+                          <div class="card-body">
+                            <h5 class="card-title text-right">Life Sciences &amp; Chemistry</h5>
+                            <small>Domain expertise gained during my education and prior experience.</small>
+                          </div>
+                        </div>
+                        <div class="col-md-9">
+                          <div class="card-body">
+                            <p class="card-text"></p><p>PUT INFO HERE</p><p></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    
+                  </div>
+                </div>
+                <br>
+                <br>
+                <div class="row" id="experience-title-row">
+                  <div class="col-12">
+                  <a name="experience">
+                    <h3 class="text-center">
+                      <!-- <i class="fa fa-code" aria-hidden="true"></i> -->
+                      Experience
+                    </h3>
+                  </a>
+          
+                  </div>
+                </div>
+                <br>
+                <div class="row" id="experience-content-row">
+                  <div id="experience-details">
+                    
+                    
+                    <div class="card box-shadow transition" id="Moderna Therapeutics-card">
+                      <div class="row g-0">
+                        <div class="col-md-3 bg-green">
+                          <div class="card-body">
+                            <h5 class="card-title">Principal Data Scientist (Research)</h5>
+                            <small>Moderna Therapeutics</small>
+                            <br>
+                            <small>July 2021-Present, Cambridge MA
+                            </small>
+                          </div>
+                        </div>
+                        <div class="col-md-9">
+                          <div class="card-body">
+                            <h6>Accomplishments and Responsibilities:</h6>
+                            <p class="card-text"></p><ul>
+          <li>Data Science lead in Moderna's DSAI group supporting Moderna's Research efforts, covering problems in mRNA design, protein engineering, and lipid nanoparticle chemistry.</li>
+          <li>Our team supported projects in AI library design, computer vision, and custom software and algorithm development that saved millions of dollars in annual FTE costs through automating manual research workflows.</li>
+          <li>Led the architecting and implementation of standardized data science workflows within the team, including co-organizing quarterly docathons to foster the habit of writing project documentation.</li>
+          <li>Advised one Masters thesis student <a href="https://www.linkedin.com/in/amine-abdeljaoued-317913146/">Amine Abdeljoued</a> on the use of Transformers for machine back-translation of protein to mRNA.</li>
+          <li>Core maintainer of Moderna's first open source project, <a href="https://github.com/modernatx/seqlike">SeqLike</a>.</li>
+          </ul><p></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    
+                    
+                    
+                    <div class="card box-shadow transition" id="Novartis Institutes for Biomedical Research (NIBR)-card">
+                      <div class="row g-0">
+                        <div class="col-md-3 bg-green">
+                          <div class="card-body">
+                            <h5 class="card-title">Senior Expert II/Investigator III, Data Science and Statistical Learning</h5>
+                            <small>Novartis Institutes for Biomedical Research (NIBR)</small>
+                            <br>
+                            <small>August 2020-June 2021, Cambridge MA
+                            </small>
+                          </div>
+                        </div>
+                        <div class="col-md-9">
+                          <div class="card-body">
+                            <h6>Accomplishments and Responsibilities:</h6>
+                            <p class="card-text"></p><ul>
+          <li>Investigator in the Informatics Products and Data Sciences (IPDS) team.</li>
+          <li>Spearheaded internal education initiatives to train colleagues on machine learning, statistical methods, and software deployment.</li>
+          <li>Built a generalized autoregressive hidden Markov model package to automatically learn latent motion states of mouse behaviour, with <a href="https://www.linkedin.com/in/zacharybarry/">Zach Barry</a> and our intern <a href="https://www.linkedin.com/in/nitin-kumar-mittal-994186a6/">Nitin Kumar Mittal</a>.</li>
+          <li>Built graph neural network model to predict protein liabilities with <a href="https://www.linkedin.com/in/mei-xiao-8022a85/">Mei Xiao</a> and <a href="https://www.linkedin.com/in/kannansankar/">Kannan Sankar</a>.</li>
+          <li>Built Suzuki chemical reaction recommendation and optimization engine with <a href="https://www.linkedin.com/in/cihan-soylu/">Cihan Soylu</a>, <a href="https://www.linkedin.com/in/mike-fortunato-a9500a58/">Mike Fortunato</a>, and <a href="https://www.linkedin.com/in/john-lopez-9540a65/">John Lopez</a> leveraging internal and external data.</li>
+          <li>Mentored one Masters thesis student <a href="https://www.linkedin.com/in/arkadij-kummer-78b249b9/">Arkadij Kummer</a> on probabilistic models for antibody engineering.</li>
+          </ul><p></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    
+                    
+                    
+                    <div class="card box-shadow transition" id="Novartis Institutes for Biomedical Research (NIBR)-card">
+                      <div class="row g-0">
+                        <div class="col-md-3 bg-green">
+                          <div class="card-body">
+                            <h5 class="card-title">Investigator II/Senior Expert I, Data Science and Statistical Learning</h5>
+                            <small>Novartis Institutes for Biomedical Research (NIBR)</small>
+                            <br>
+                            <small>September 2018-July 2020, Cambridge MA
+                            </small>
+                          </div>
+                        </div>
+                        <div class="col-md-9">
+                          <div class="card-body">
+                            <h6>Accomplishments and Responsibilities:</h6>
+                            <p class="card-text"></p><ul>
+          <li>Investigator in the Scientific Data Analysis (SDA) team.</li>
+          <li>Co-organized and developed teaching material for machine learning &amp; deep learning workshops and seminars internally at NIBR with colleagues <a href="https://www.linkedin.com/in/sivakumar-gowrisankar-b71a016/">Sivakumar Gowrisankar</a>, <a href="https://www.linkedin.com/in/yuan-wang-王元-0b19a822/">Yuan Wang</a>, <a href="https://www.linkedin.com/in/laszlo-urban-4444974/">Laszlo Urban</a>, and Sean Xiao.</li>
+          <li>Developed a massively parallelized engine for training, evaluating, and serving machine learning models on internal assay data, with an emphasis on serving prediction uncertainties with NIBR colleagues <a href="https://www.linkedin.com/in/nikolaus-stiefl-39583b25/">Nikolaus Stiefl</a> and <a href="https://www.linkedin.com/in/gregorigerebtzoff/">Gregori Gerebtzoff</a>.</li>
+          <li>Developed machine learning workflows to accelerate protein engineering as part of the internal Genesis Labs innovation initiative, with <a href="https://www.linkedin.com/in/richard-lewis-8916891/">Richard Lewis</a> and our intern <a href="https://www.linkedin.com/in/arkadij-kummer-78b249b9/">Arkadij Kummer</a>.</li>
+          <li>Accelerated recurrent neural network UniRep using JAX. <a href="https://github.com/ElArkk/jax-unirep">Software</a> and <a href="https://www.biorxiv.org/content/10.1101/2020.05.11.088344v1">preprint</a> available.</li>
+          </ul><p></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    
+                    
+                    
+                    <div class="card box-shadow transition" id="Novartis Institutes for Biomedical Research (NIBR)-card">
+                      <div class="row g-0">
+                        <div class="col-md-3 bg-green">
+                          <div class="card-body">
+                            <h5 class="card-title">Investigator I, Data Science &amp; Statistical Learning</h5>
+                            <small>Novartis Institutes for Biomedical Research (NIBR)</small>
+                            <br>
+                            <small>September 2017-August 2018, Cambridge MA
+                            </small>
+                          </div>
+                        </div>
+                        <div class="col-md-9">
+                          <div class="card-body">
+                            <h6>Accomplishments and Responsibilities:</h6>
+                            <p class="card-text"></p><ul>
+          <li>Investigator in the Scientific Data Analysis (SDA) team.</li>
+          <li>Performed internal consulting projects and expanded the SDA Statistical Learning initiative with colleagues.</li>
+          <li>Developed parameterized Bayesian agent-based models of internal project portfolio for scenario planning purposes, using <a href="http://docs.pymc.io">PyMC</a> and <a href="https://github.com/projectmesa/mesa">Mesa</a>.</li>
+          <li>Assisted in the analysis of high throughput DROSHA cleavage data.</li>
+          <li>Assisted in mentoring two interns, <a href="https://www.linkedin.com/in/stacy-meichle/">Stacy Meichle</a> (Computer Aided Drug Discovery with <a href="https://www.linkedin.com/in/clayton-springer-5a48072/">Clayton Springer</a>) and <a href="https://www.linkedin.com/in/flekschas/">Fritz Lekschas</a> (SDA with <a href="https://www.linkedin.com/in/brant-peterson-b390a51/">Brant Peterson</a>).</li>
+          </ul><p></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    
+                    
+                    
+                    <div class="card box-shadow transition" id="Insight Data Science-card">
+                      <div class="row g-0">
+                        <div class="col-md-3 bg-green">
+                          <div class="card-body">
+                            <h5 class="card-title">Health Data Science Fellow</h5>
+                            <small>Insight Data Science</small>
+                            <br>
+                            <small>June 2017-August 2017, Boston MA
+                            </small>
+                          </div>
+                        </div>
+                        <div class="col-md-9">
+                          <div class="card-body">
+                            <h6>Accomplishments and Responsibilities:</h6>
+                            <p class="card-text"></p><ul>
+          <li>Built <a href="https://fluforecaster.herokuapp.com">Flu Forecaster</a>, a machine learning-powered system that forecasts flu sequences six months out, to better prepare for manufacturing of vaccine strains.</li>
+          <li>Implemented a variational autoencoder (deep learning model) to learn a continuous representation of 14,455 influenza hemagglutinin protein sequences, and trained a Gaussian process model on the continuous representation to predict new flu sequences.</li>
+          <li>Developed interactive blog post using Flask and Bootstrap, and deployed to Heroku and GitHub.</li>
+          <li>Led peer workshops on <a href="https://github.com/ericmjl/minimal-flask-example">web development</a>, deep learning and <a href="https://github.com/ericmjl/pycodestyle-tutorial">code style</a>.</li>
+          </ul><p></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="card box-shadow transition" id="Massachusetts Institute of Technology-card">
+                      <div class="row g-0">
+                        <div class="col-md-3 bg-green">
+                          <div class="card-body">
+                            <h5 class="card-title">ScD Candidate</h5>
+                            <small>Massachusetts Institute of Technology</small>
+                            <br>
+                            <small>August 2011-May 2017, Cambridge MA
+                            </small>
+                          </div>
+                        </div>
+                        <div class="col-md-9">
+                          <div class="card-body">
+                            <h6>Accomplishments and Responsibilities:</h6>
+                            <p class="card-text"></p><ul>
+          <li>Developed a scalable, network-based phylogenetic heuristic algorithm for detecting reassortant influenza viruses using 18,632 fully sequenced virus genomes that improved our capacity to detect reassortment events by two orders of magnitude.</li>
+          <li>The algorithm was used in a lead-author study (published in <a href="http://www.pnas.org/content/113/19/5335.full">PNAS</a>) providing systematic evidence that genome shuffling is important for host switching, and a co-authored study (published in <a href="http://onlinelibrary.wiley.com/doi/10.1111/ele.12629/abstract">Ecology Letters</a>) that showed that reassortment is a strategy for viral gene persistence in wild animal reservoirs.</li>
+          <li>Contributed <a href="https://github.com/runstadler-lab/Seal-H3N8-Image-Analysis">reproducible data analysis</a> for colleagues through fluorescent image quantification and genomic analysis in studies that refuted binding properties of novel influenza viruses.</li>
+          <li>Performed <a href="https://github.com/ericmjl/mia-stats/blob/master/sterilization/sterilization.ipynb">Bayesian statistical modelling</a> for colleagues testing the efficacy of phone sterilization tools.</li>
+          <li>Delivered tutorials and talks on Network Analysis and Bayesian statistical methods at annual Python conferences, including PyCon, SciPy, and PyData.</li>
+          </ul><p></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    
+                    
+                    
+                    
+                  </div>
+                </div>
+                <br>
+                <br>
+                <div class="row" id="education-title-row">
+                  <div class="col-12" id="education-title-row">
+                  <a name="education">
+                    <h3 class="text-center">
+                      <!-- <i class="fa fa-graduation-cap" aria-hidden="true"></i> -->
+                      Education
+                    </h3>
+                  </a>
+                  </div>
+                </div>
+                <br>
+                <div class="row" id="education-content-row">
+                  <div id="education-details">
+                    
+                    <div class="card box-shadow transition">
+                      <div class="row g-0">
+                        <div class="col-md-3 bg-yellow" id="title">
+                          <div class="card-body">
+                            <h5>Massachusetts Institute of Technology</h5>
+                            <small>Department of Biological Engineering</small>
+                            <br>
+                            <small>August 2011-May 2017, Cambridge MA</small>
+                          </div>
+                        </div>
+                        <div class="col-md-9" id="content">
+                          <div class="card-body">
+                            <h5>Doctor of Science (Sc.D.)</h5>
+                            <p></p><p>I did my doctoral training under Prof. Jonathan Runstadler
+          in computational influenza evolution and ecology.</p><p></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    
+                    <div class="card box-shadow transition">
+                      <div class="row g-0">
+                        <div class="col-md-3 bg-yellow" id="title">
+                          <div class="card-body">
+                            <h5>The University of British Columbia</h5>
+                            <small>Integrated Sciences</small>
+                            <br>
+                            <small>June 2006-May 2010, Vancouver BC</small>
+                          </div>
+                        </div>
+                        <div class="col-md-9" id="content">
+                          <div class="card-body">
+                            <h5>Bachelor of Science (B.Sc.)</h5>
+                            <p></p><p>I conducted gut immunology and pathology research
+          in the laboratory of Prof. Brett Finlay
+          under the supervision of Dr. Guntram Grassl and Dr. Hongbing Yu.
+          I also founded the iGEM team at UBC under Prof. Eric Lagally.</p><p></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    
+                  </div>
+                </div>
+                <br>
+                <br>
+                <div class="row" id="publications-title-row">
+                  <div class="col-12" id="publications-title-row">
+                  <a name="publications">
+                    <h3 class="text-center">
+                      <!-- <i class="fa fa-bookmark"></i> -->
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    
+                  </div>
+                </div>
+                <div class="row" id="footer">
+                  <!-- <div class="col-12 text-center">
+                    <small>
+                      Made with ❤️ using
+                      <a href="https://palletsprojects.com/p/flask/">Flask</a>,
+                      <a href="https://palletsprojects.com/p/jinja/">Jinja2</a>,
+                      and <a href="https://getbootstrap.com/">Bootstrap 5</a>.
+                      Source at <a href="https://github.com/ericmjl/resume">GitHub.</a>
+                      Color theme: <a href="https://nordtheme.com">Nord</a>.
+                    </small> -->
+                    <br>
+                    <br>
+          
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          
+          
+          
+          
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/scss/_root.scss:4"></script>
+          <!-- FontAwesome embed -->
+          <script src="https://use.fontawesome.com/cb9dbe8e41.js"></script><link rel="stylesheet" href="https://use.fontawesome.com/cb9dbe8e41.css" media="all">
+          
+          </body>
+        <!-- <h1>All About Me</h1>
         <!--TODO: Add a pretty photo here-->
         <section>
             <!-- TODO: Add a photo of me -->
-          <p>Hi, welcome to my virtual resume. Here you can get acquainted with me, learn about my skills, and the technologies that drive me. My coding journey started about two years ago within Apex, however over the course of those years I have spent time building in various programming languages. Attached as well are some of my projects.</p>
+          <!-- <p>Hi, welcome to my virtual resume. Here you can get acquainted with me, learn about my skills, and the technologies that drive me. My coding journey started about two years ago within Apex, however over the course of those years I have spent time building in various programming languages. Attached as well are some of my projects.</p>
           
         </section>
 
@@ -114,6 +602,6 @@
           <!-- Load external Javascript -->
           <script src="app.js"></script>
 
-    </body>
+    </body> 
 
-</html>
+</html> 
